@@ -1,0 +1,40 @@
+<a id="first" href="#first">
+    <h3>Back</h3>
+</a>
+<h2 align = "left">Showing results for all Authors... </h2>
+<hr>
+
+<div>
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'Ernest')" id="defaultOpen"><b>Ernest Hemmingway</b></button>
+        <button class="tablinks" onclick="openCity(event, 'Charles')"><b>Charles Dickens</b></button>
+        <button class="tablinks" onclick="openCity(event, 'William')"><b>William Shakespeare</b></button>
+    </div>
+
+    <div id="Ernest" class="tabcontent">
+        <div ng-repeat="x in ernestData.results">
+            <a href="{{x.trackViewUrl}}"><h3>{{x.trackName}}</h3></a>
+            <h4>{{x.formattedPrice}}</h4>
+            <span>{{x.description}}</span>
+        </div>
+    </div>
+
+    <div id="Charles" class="tabcontent">
+        <div ng-repeat="x in dickensData.results">
+            <a href="{{x.trackViewUrl}}"><h3>{{x.trackName}}</h3></a>
+            <h4>{{x.formattedPrice}}</h4>
+            <span>{{x.description}}</span>
+        </div> 
+    </div>
+
+    <div id="William" class="tabcontent">
+        <div ng-repeat="x in shakespearetData.results">
+            <a href="{{x.trackViewUrl}}"><h3>{{x.trackName}}</h3></a>
+            <h4>{{x.formattedPrice}}</h4>
+            <span>{{x.description}}</span>
+        </div>
+    </div>
+       
+   
+
+</div>

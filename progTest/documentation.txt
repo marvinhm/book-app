@@ -1,0 +1,20 @@
+This is my book app,
+
+Pretty simple in design and run.
+
+Simply, I have an... 
+- index.html 
+- a root module with controller that implements $http calls, storing data
+- also i have views for the different pages
+- and some css for tidying up the author pannels 
+- using Agular route, i dowloaded the angular & bootstap files 
+
+Everthing else is pretty straight-forward, should work no issue.
+
+progTest folder in localhost folder... 
+
+URL: http://localhost/progTest/index.html#/first
+
+Cheers,
+
+Marvin 
